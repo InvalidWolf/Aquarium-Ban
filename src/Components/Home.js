@@ -18,7 +18,7 @@ class Home extends Component {
         return (
             <Grid container alignItems={"center"} justify="center" direction="column">
                 <Grid item xs={12}>
-                    <Button startIcon={<Icon size={1} path={mdiDiscord}/>} href={url} size={"large"} className={"button"}>Mit Discord einloggen</Button>
+                    <Button startIcon={<Icon size={1} path={mdiDiscord}/>} href={url} size={"large"} className={"button"}>Anmelden</Button>
                 </Grid>
             </Grid>
         );
